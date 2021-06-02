@@ -8,32 +8,15 @@
     {
         "_id": 2,
         "name": "JAVA",
-        "logo": "c++.png",
+        "logo": "java.jpg",
         "votes":0
     },
     {
         "_id": 3,
         "name": "PYTHON",
-        "logo": "c++.png",
-        "votes":0
-    },
-    {
-        "_id": 4,
-        "name": "JAVASCRIPT",
-        "logo": "c++.png",
-        "votes":0
-    },
-    {
-        "_id": 5,
-        "name": "GO",
-        "logo": "c++.png",
-        "votes":0
-    },
-    {
-        "_id": 6,
-        "name": "R",
-        "logo": "c++.png",
+        "logo": "python.jpg",
         "votes":0
     }
+    
 ]
     

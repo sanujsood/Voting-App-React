@@ -39,13 +39,11 @@ code {
 }
 
 .card {
-  /* Add shadows to create the "card" effect */
   width: 90%;
   margin: 10px 10px 10px 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0, 1);
   border-radius: 10px;
-  /* 5px rounded corners */
   float: left;
   cursor: pointer;
   background-color: #fff;
@@ -55,12 +53,10 @@ code {
   border-radius: 10px 10px 0 0;
 }
 
-/* On mouse-over, add a deeper shadow */
 .card:hover {
   box-shadow: 0px 0px 26px 8px rgba(0, 0, 0, 0.79);
 }
 
-/* Add some padding inside the card container */
 .card__info {
   padding: 10px 16px;
   display: flex;
