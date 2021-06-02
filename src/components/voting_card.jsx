@@ -8,7 +8,7 @@ function VotingCard(props) {
 
             <div className="cards">
                 <div className="card">
-                    <img src={`/assets/${lang.logo}`} style={{ width: "100%" }} />
+                    <img src={`/assets/${lang.logo}`} alt={"Programming Language"} style={{ width: "100%" }} />
                     <div className="card__info">
                         <span className="card__category">{lang.name}</span>
                         <button variant="success" onClick={() => incrementVoteCount(lang._id)}>
