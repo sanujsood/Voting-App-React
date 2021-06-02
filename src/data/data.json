@@ -1,0 +1,39 @@
+[
+    {
+        "_id": 1,
+        "name": "C++",
+        "logo": "c++.png",
+        "votes":0
+    },
+    {
+        "_id": 2,
+        "name": "JAVA",
+        "logo": "c++.png",
+        "votes":0
+    },
+    {
+        "_id": 3,
+        "name": "PYTHON",
+        "logo": "c++.png",
+        "votes":0
+    },
+    {
+        "_id": 4,
+        "name": "JAVASCRIPT",
+        "logo": "c++.png",
+        "votes":0
+    },
+    {
+        "_id": 5,
+        "name": "GO",
+        "logo": "c++.png",
+        "votes":0
+    },
+    {
+        "_id": 6,
+        "name": "R",
+        "logo": "c++.png",
+        "votes":0
+    }
+]
+    

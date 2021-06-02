@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #2C2F33;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app {
+  margin: 5%;
+
+  .card {
+    .card-title {
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    button {
+      width: 100%;
+    }
+  }
+}
+
+.cards {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  width: 90%;
+  margin: 10px 10px 10px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0, 1);
+  border-radius: 10px;
+  /* 5px rounded corners */
+  float: left;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.card img {
+  border-radius: 10px 10px 0 0;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0px 0px 26px 8px rgba(0, 0, 0, 0.79);
+}
+
+/* Add some padding inside the card container */
+.card__info {
+  padding: 10px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #404244;
+
+}
+
+.card__info span {
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1.4px;
+  font-size: xx-large;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card__info h3 {
+  padding: 10px 0px;
+  font-family: 'Martel', serif;
+  color: aliceblue;
+}
+
+.card__info button {
+  outline: none;
+  border: 2px solid white;
+  margin-top: 35px;
+  border-radius: 20px;
+  padding: 8px 15px;
+  color: white;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-family: 'Cinzel', serif;
+  transition: all 0.3s ease-in;
+  background-color: rgb(80, 78, 78);
+}
+
+.card__info button:hover {
+  color: rgb(80, 78, 78);
+  border: 2px solid rgb(80, 78, 78);
+  background-color: #fff;
+}
+
+.circle {
+  display: inline-block;
+  position: relative;
+  margin: 20px;
+  width: 350px;
+  height: 400px;
+
+  padding: 30px;
+  background: #2C2F33;
+  box-shadow: 14px 14px 40px rgba(16, 16, 18, 0.75),
+    -7px -7px 30px #262E32;
+  border-radius: 8px;
+}
