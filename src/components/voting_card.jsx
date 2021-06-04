@@ -1,7 +1,24 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import langs_json from "../data/data.json";
 
 function VotingCard(props) {
-    let { lang, incrementVoteCount } = props;
+    let { lang } = props;
+    let [langs, setLangs] = useState([]);
+
+
+
+    function incrementVoteCount(langId) {
+        langs = langs.map((lang_voted) => {
+            if (lang_voted._id === langId) {
+                lang_voted.votes = lang_voted.votes + 1;
+            }
+            return lang_voted;
+        });
+        setLangs(langs);
+    }
+    useEffect(() => {
+        setLangs(langs_json);
+    }, []);
 
     return (
         <div class="circle">
