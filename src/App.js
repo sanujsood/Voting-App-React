@@ -8,7 +8,7 @@ function App() {
 
   return (
     <Container className="app">
-      <h1 style={{color:"white",  textAlign:"center", fontSize:"60px"}}>Voting App</h1>
+      <h1 style={{color:"white",  textAlign:"center", fontSize:"60px"}}>Vote Here..</h1>
       <Row>
 
         {langs_json.map((lang) => {
